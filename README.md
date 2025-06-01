@@ -46,3 +46,7 @@ val rules = List(
 
   And then, from the cloned directory
   * compile and run with `sbt run`
+ 
+
+### Literature
+This project implements the basic seminaive evaluation from Serge Abiteboul, Richard Hull and Victor Vianu Book [Foundations of Databases](http://webdam.inria.fr/Alice/#)
