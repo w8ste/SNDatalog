@@ -1,8 +1,12 @@
-## sbt project compiled with Scala 3
+## SNDatalog
 
-### Usage
+### Build Instructions
+* You need a recent installation of
+  1. [Scala3](https://docs.scala-lang.org/getting-started/install-scala.html)
+  2. [sbt](https://www.scala-sbt.org/)
+* Clone this repository by running:
+  `git clone https://github.com/w8ste/SNDatalog`
 
-This is a normal sbt project. You can compile code with `sbt compile`, run it with `sbt run`, and `sbt console` will start a Scala 3 REPL.
-
-For more information on the sbt-dotty plugin, see the
-[scala3-example-project](https://github.com/scala/scala3-example-project/blob/main/README.md).
+  And then, from the cloned directory
+  * compile and run with:
+  `sbt run`
