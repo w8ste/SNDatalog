@@ -141,7 +141,7 @@ def semiNaiveEvaluation(rules: List[Rule], edb: Map[Predicate, Relation]): Map[P
         }
       }
 
-      // check for loop condition
+      // Check the loop condition. If delta is empty, the fixpoint has been reached
       deltaNotEmpty = newDelta.exists(_._2.nonEmpty)
 
       // 5. S^i := S^i-1 union delta^i_S
