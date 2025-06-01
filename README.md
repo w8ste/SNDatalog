@@ -1,5 +1,5 @@
 ## SNDatalog
-
+This is an implementation of the core of seminaive evaluation. It takes a specified Datalog program as input and returns all derived facts.
 
 ## How to Define Your Datalog Program
 
@@ -39,9 +39,10 @@ val rules = List(
 * You need a recent installation of
   1. [Scala3](https://docs.scala-lang.org/getting-started/install-scala.html)
   2. [sbt](https://www.scala-sbt.org/)
+  3. [git](https://git-scm.com/)
+    
 * Clone this repository by running:
   `git clone https://github.com/w8ste/SNDatalog`
 
   And then, from the cloned directory
-  * compile and run with:
-  `sbt run`
+  * compile and run with `sbt run`
